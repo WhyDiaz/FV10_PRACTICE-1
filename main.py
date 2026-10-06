@@ -34,5 +34,35 @@ from pyscript import document, display
 #The difference betweeen a method and a function
 #The method operates on the data in the class, while a function is usd to return or passs the data. 
 
-dogs = {"Pommeranian", "Labrador", "Golden Retriever", "Pomeranian"}
-display(dogs)
+#dogs = {"Pommeranian", "Labrador", "Golden Retriever",}
+#dogs.add("Husky")  # creates a new set with "Husky"
+#display(dogs)
+
+
+#sample_set = {} # data type is a dictionary, however if a value is present it is a set
+#display(type(sample_set))
+
+
+
+
+
+
+A = {'soda', 'candy', 'chocolate','burger', 'soda'}
+B = {'cotton candy', 'burger', 'fries'}
+C = {'chicken nuggets'}
+
+#display(A | B | C)  # displays the union of sets A and B
+#display(A | B | C)  # displays the union of sets A, B, and C
+
+#display(union(A, B))  # displays the union of sets A and B
+#display(A.union(B, C))  # displays the union of sets A, B, and C
+
+#display(A&B)  # displays the intersection of sets A and B {'burger'}
+#display(A&C) # displays the intersection of sets A and C set() - empty set becasue there is no common element between A and C
+
+#display(A.intersection(B, C))  # displays the intersection of sets A, B, and C set() - empty set because there is no common element between A, B, and C
+
+#display(A-B)  # displays the difference of sets A and B {'soda', 'candy', 'chocolate'}
+
+#display(A^B)  # displays the symmetric difference of sets A and B {'soda', 'candy', 'chocolate', 'cotton candy', 'fries'}
+
